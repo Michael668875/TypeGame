@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/typing_game.css') }}">
+</head>
+<body>
+    <h1>Typing Game</h1>
+    <div id="game-container">
+        <p id="text">Type this text as fast as you can!</p>
+        <input type="text" id="input-box" placeholder="Start typing...">
+        <p id="timer">Time: 0s</p>
+        <p id="wpm">WPM: 0</p>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/typing_game.js') }}"></script>
+</body>
+</html>
