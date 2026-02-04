@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+flask-venv/
+
+# Environment variables
+.env
+.env.*
+
+# Flask / Django
+instance/
+*.log
+
+# Django
+db.sqlite3
+staticfiles/
+media/
+
+# Gunicorn / sockets
+*.sock
+
+# Node / frontend (your typing game)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# AWS / SSH keys (IMPORTANT)
+*.pem
+*.key
+
+# Nginx temp / cache
+nginx_cache/
