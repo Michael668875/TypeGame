@@ -10,5 +10,10 @@ def home():
 def typing_game():
     return render_template("typing_game.html")
 
+@app.route("/typegame")
+def typegame():
+    return render_template("index.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
+
