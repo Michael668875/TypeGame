@@ -1,0 +1,2 @@
+[console_scripts]
+note = note_app.note:cli

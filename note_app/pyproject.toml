@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "note-app"
+version = "0.1.0"
+
+[project.scripts]
+note = "note_app.note:cli"
+
+[tool.setuptools.packages.find]
+where = ["."]
